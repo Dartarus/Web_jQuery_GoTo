@@ -1,2 +1,26 @@
 # Web_jQuery_GoTo
 網站_JQuery前往元素
+
+# 範例網站
+https://dartarus.github.io/Web_jQuery_GoTo/
+
+# CDN
+放在 body 結束元素的上方，必須按造下方的順序
+
+```
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- 前往元素 js -->
+<script src="https://github.com/Dartarus/Web_jQuery_GoTo/blob/main/goTo.js"></script>
+
+```
+
+# 屬性說明
+
+屬性名稱	         |屬性說明
+--------------------|---------------------------
+data-gt-target   	|要前往的目標元素，必須使用 ID
+data-gt-duration    |持續時間，單位為毫秒
+data-gt-offset   	|位移，往上位移的值
